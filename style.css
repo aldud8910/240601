@@ -31,3 +31,67 @@
 .box-end1 {
   align-self: flex-end;
 }
+
+.main2 {
+  display: flex;
+  justify-content: center;
+}
+.box2 {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(208, 81, 208);
+  color: white;
+}
+.box-big2 {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(235, 39, 39);
+  color: white;
+  position: relative;
+}
+.box-position2 {
+  position: absolute;
+  left: 300px;
+  top: 300px;
+}
+
+.box4 {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(241, 67, 241);
+  color: white;
+}
+.box-4 {
+  background-color: rgb(63, 93, 184);
+}
+.box-position4 {
+  position: relative;
+  left: 50px;
+  top: -50px;
+}
+
+.box5 {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(229, 33, 235);
+  color: rgb(0, 0, 0);
+}
+.box-big5 {
+  width: 400px;
+  height: 150px;
+  background-color: rgb(145, 230, 154);
+  color: rgb(0, 30, 255);
+  position: absolute;
+  right:0px;
+  bottom:0px;
+}
+.box-top5 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.box-bottom5 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
